@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.testng.eclipse.launchconfig">
+    <stringAttribute key="org.eclipse.jdt.launching.CLASSPATH_PROVIDER" value="org.eclipse.m2e.launchconfig.classpathProvider"/>
+    <stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="org.testng.remote.RemoteTestNG"/>
+    <stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="HybridFramework"/>
+    <stringAttribute key="org.eclipse.jdt.launching.SOURCE_PATH_PROVIDER" value="org.eclipse.m2e.launchconfig.sourcepathProvider"/>
+    <mapAttribute key="org.testng.eclipse.ALL_CLASS_METHODS"/>
+    <listAttribute key="org.testng.eclipse.CLASS_TEST_LIST">
+        <listEntry value="demo.TestDemo"/>
+        <listEntry value="Pages.LoginPage"/>
+        <listEntry value="testcases.dataDrivenTestCases.FirstTCUsingPageObject"/>
+        <listEntry value="testcases.hybridTestCases.AddUser"/>
+        <listEntry value="Pages.AdminUserManagement"/>
+        <listEntry value="dataProvider.DataProvider"/>
+        <listEntry value="testcases.hybridTestCases.AddUser1"/>
+        <listEntry value="testcases.dataDrivenTestCases.DemoClass"/>
+        <listEntry value="utility.ConfigReader"/>
+        <listEntry value="Pages.BaseClass"/>
+        <listEntry value="testcases.hybridTestCases.GridTestCase2"/>
+        <listEntry value="utility.Helper"/>
+        <listEntry value="testcases.hybridTestCases.GridTestCase"/>
+        <listEntry value="testcases.hybridTestCases.AddEmployee1"/>
+        <listEntry value="testcases.hybridTestCases.GridTestCase1"/>
+        <listEntry value="testcases.dataDrivenTestCases.FirstDDT"/>
+        <listEntry value="testcases.hybridTestCases.AddEmployee"/>
+        <listEntry value="Pages.LogOutPage"/>
+        <listEntry value="testcases.hybridTestCases.AddUserWithReport1"/>
+        <listEntry value="testcases.hybridTestCases.AddUserWithReport"/>
+        <listEntry value="demo.DataPrac"/>
+        <listEntry value="utility.ExcelConfig"/>
+    </listAttribute>
+    <listAttribute key="org.testng.eclipse.METHOD_TEST_LIST"/>
+    <listAttribute key="org.testng.eclipse.PACKAGE_TEST_LIST"/>
+    <stringAttribute key="org.testng.eclipse.PRE_DEFINED_LISTENERS" value=""/>
+    <intAttribute key="org.testng.eclipse.TYPE" value="1"/>
+</launchConfiguration>

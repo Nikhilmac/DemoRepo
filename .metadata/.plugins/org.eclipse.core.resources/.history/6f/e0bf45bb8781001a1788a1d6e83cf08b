@@ -1,0 +1,9 @@
+package com.automation.utility;
+
+public class ExcelDataProvider {
+
+	public ExcelDataProvider() {
+		File src = new File("./testData/LoginTestData.xlsx");
+	}
+
+}

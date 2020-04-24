@@ -1,0 +1,26 @@
+package com.automation.utility;
+
+import org.openqa.selenium.WebDriver;
+
+public class BrowserFactory {
+
+	public static WebDriver StartApplication(WebDriver driver, String browserName, String url) {
+
+		if (browserName.equals("Chrome")) {
+
+		}
+		if (browserName.equals("FireFox")) {
+
+		}
+		if (browserName.equals("IE")) {
+
+		}
+
+		return driver;
+
+	}
+
+	public static void quitbrowser() {
+
+	}
+}

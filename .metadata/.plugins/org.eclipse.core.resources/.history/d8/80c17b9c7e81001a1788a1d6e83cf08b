@@ -1,0 +1,24 @@
+package ERP;
+
+import java.util.concurrent.TimeUnit;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class Crm {
+	public static void main(String[] args) {
+
+		System.setProperty("webdriver.chrome.driver", "E:\\selenium\\Chrome 80.3987.106\\chromedriver.exe");
+		WebDriver driver = new ChromeDriver();
+		driver.manage().window().maximize();
+		driver.manage().timeouts().pageLoadTimeout(30, TimeUnit.SECONDS);
+		driver.get("https://ui.freecrm.com/");
+		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+		driver.findElement(By.name("email")).sendKeys("");
+		driver.findElement(By.name("password")).sendKeys("");
+		driver.findElement(By.xpath("//div[text()='Login']")).click();
+
+	}
+
+}

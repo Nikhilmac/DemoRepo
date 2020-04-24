@@ -1,0 +1,23 @@
+package Oct_2019;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class ZipTest {
+	public static void main(String[] args) throws InterruptedException {
+		System.setProperty("webdriver.chrome.driver", "E:\\selenium\\Chrome 76\\chromedriver.exe");
+		WebDriver driver = new ChromeDriver();
+		driver.get("https://pro.ziperp.net/");
+		driver.findElement(By.id("EnterpriseId")).sendKeys("maco");
+		driver.findElement(By.id("UserId")).sendKeys("Ziperpdemo");
+		driver.findElement(By.id("Password")).sendKeys("123");
+		driver.findElement(By.xpath("//*[@id=\"TenantTBL\"]/tbody/tr[47]")).sendKeys("123");
+
+		driver.findElement(By.id("Password")).sendKeys("123");
+
+		driver.findElement(By.id("Password")).sendKeys("123");
+
+	}
+
+}

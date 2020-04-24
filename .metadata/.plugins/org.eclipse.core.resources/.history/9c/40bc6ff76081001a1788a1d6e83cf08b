@@ -1,0 +1,13 @@
+package com.automation.pages;
+
+import org.openqa.selenium.WebDriver;
+
+public class loginPage {
+	public WebDriver driver;
+
+	public loginPage(WebDriver ldriver) {
+		this.driver = ldriver;
+
+	}
+
+}

@@ -1,0 +1,22 @@
+package com.automation.utility;
+
+public class BrowserFactory {
+
+	public static WebDriver StartApplication(WebDriver driver, String browserName, String url) {
+
+		if (browserName.equals("Chrome")) {
+
+		}
+		if (browserName.equals("FireFox")) {
+
+		}
+		if (browserName.equals("IE")) {
+
+		}
+
+	}
+
+	public static void quitbrowser() {
+
+	}
+}

@@ -1,0 +1,14 @@
+package ERP;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class Crm {
+	public static void main(String[] args) {
+		
+		System.setProperty("webdriver.chrome.driver", "E:\\selenium\\Chrome 80.3987.106\\chromedriver.exe");
+		WebDriver driver = new ChromeDriver();
+		
+	}
+
+}

@@ -1,0 +1,30 @@
+package com.automation.utility;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class BrowserFactory {
+
+	public static WebDriver StartApplication(WebDriver driver, String browserName, String url) {
+
+		if (browserName.equals("Chrome")) {
+			
+			System.setProperty("webdriver.chrome.driver", "");
+			WebDriver driver = new ChromeDriver();
+
+		}
+		if (browserName.equals("FireFox")) {
+
+		}
+		if (browserName.equals("IE")) {
+
+		}
+
+		return driver;
+
+	}
+
+	public static void quitbrowser() {
+
+	}
+}

@@ -1,0 +1,29 @@
+package com.automation.pages;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+
+public class loginPage {
+	public WebDriver driver;
+
+	public loginPage(WebDriver ldriver) {
+		this.driver = ldriver;
+
+	}
+
+	@FindBy(name = "email")
+	WebElement uname;
+	@FindBy(name = "password")
+	WebElement Pwrd;
+	@FindBy(xpath = "//*[@id=\"ui\"]/div/div/form/div/div[3]")
+	WebElement loginbutton;
+
+	public void logintocrm(String usernameApplication, String passwordApplication) {
+		uname.sendKeys("porikanikhil45@gmail.com");
+		Pwrd.sendKeys("nikhilnikhil");
+		loginbutton.click();
+
+	}
+
+}

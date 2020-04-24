@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;Oct_2019.selenium4_4&apos; to &apos;selenium4_3&apos;&#x0D;&#x0A;- Original project: &apos;seleniumsessions&apos;&#x0D;&#x0A;- Original element: &apos;Oct_2019.selenium4_4&apos;&#x0D;&#x0A;- Renamed element: &apos;Oct_2019.selenium4_3&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;selenium4_4&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src\/main\/java&lt;Oct_2019{selenium4_4.java[selenium4_4" matchStrategy="1" name="selenium4_3" qualified="false" references="true" similarDeclarations="false" stamp="1570350062966" textual="false" version="1.0"/>
+</session>

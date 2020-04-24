@@ -1,0 +1,12 @@
+package com.automation.utility;
+
+public class BrowserFactory {
+
+	public static WebDriver StartApplication(WebDriver driver, String browserName, String url) {
+
+	}
+
+	public static void quitbrowser() {
+
+	}
+}
